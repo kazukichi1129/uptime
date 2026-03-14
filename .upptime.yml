@@ -1,0 +1,19 @@
+owner: kazukichi1129
+repo: uptime
+sites:
+  - name: ガチソウル管理画面
+    url: https://admin-alpha-wheat.vercel.app
+  - name: チャンス提案ページ
+    url: https://chance-proposal.vercel.app
+  - name: Re:nk（本番URL確認後に更新）
+    url: https://re-nk-os.vercel.app
+status-website:
+  cname:
+  name: ソウルシンクス サービス稼働状況
+  theme: auto
+  favicon: https://emojipedia-us.s3.amazonaws.com/source/skype/289/satellite_1f6f0-fe0f.png
+  opengraph:
+    description: ソウルシンクスが運営するサービスの稼働状況をリアルタイムで確認できます。
+notifications:
+  - type: github_issue
+schedule: 0 */5 * * * *

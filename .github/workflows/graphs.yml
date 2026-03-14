@@ -1,0 +1,20 @@
+name: Generate graphs
+on:
+  workflow_run:
+    workflows: ["Uptime CI"]
+    types:
+      - completed
+  workflow_dispatch:
+jobs:
+  graphs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Upptime
+        uses: upptime/uptime-monitor@master
+        with:
+          UPPTIME_GH_PAT: ${{ secrets.UPPTIME_GH_PAT }}
+          TYPE: graphs
+        env:
+          GH_PAT: ${{ secrets.UPPTIME_GH_PAT }}
