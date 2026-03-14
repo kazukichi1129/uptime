@@ -1,0 +1,18 @@
+owner: kazukichi1129
+repo: uptime
+sites:
+  - name: ガチソウル管理画面
+    url: https://admin-info-33774277s-projects.vercel.app
+  - name: Re:nk（再んく）
+    url: https://renk-os-info-33774277s-projects.vercel.app
+  - name: ECXIA安全管理システム
+    url: https://ecxia-safety.vercel.app
+  - name: チャンス提案ページ
+    url: https://chance-proposal-info-33774277s-projects.vercel.app
+  - name: ソウルシンクス開発環境
+    url: https://ax.soulsyncs.jp
+status-website:
+  name: ソウルシンクス サービス稼働状況
+  theme: auto
+notifications:
+  - type: github_issue
